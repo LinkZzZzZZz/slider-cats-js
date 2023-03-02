@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 30px;
+    padding: 15px 0;
+    background-color: rgb(49, 57, 65);
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.controls {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+
+/* Слайдер */
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 450px;
+    background-color: rgb(182, 203, 222);
+}
+
+.hidden {
+    display: none;
+}
